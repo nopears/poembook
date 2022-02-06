@@ -5,6 +5,37 @@ body {
   background-color: #1e1e1e;
   overflow-x: hidden;
 }
+.title {
+  color: #fff;
+  font-family: "Ubuntu";
+  font-size: 24px;
+  margin-bottom: 56px;
+}
+.main_block {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 160px;
+}
+.author {
+  color: #fff;
+  font-family: "Ubuntu";
+  margin-bottom: 28px;
+}
+.main_block a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Ubuntu";
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid #474747;
+  background-color: #2e2e2e;
+}
+.main_block a:hover {
+  transition: .15s;
+  background-color: #3a3a3a;
+}
 .poem_list {
   list-style: none;
   display: flex;
@@ -27,10 +58,21 @@ body {
 .arrow_button {
   text-decoration: none;
   color: #fff;
-  font-family: Calibri;
+  font-family: "Calibri";
   font-size: 40px;
 }
 .arrow_button:hover {
+  color: #757575;
+  transition: .15s;
+}
+.arrow_nav_button {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Calibri";
+  font-size: 20px;
+  margin: 0 20px;
+}
+.arrow_nav_button:hover {
   color: #757575;
   transition: .15s;
 }
@@ -40,9 +82,28 @@ body {
   padding: 5px 0px 0px 5px;
   width: 100%;  
 }
+.poem_title {
+  text-align: center;
+  color: #fff;
+  font-family: "Calibri";
+  font-size: 24px;
+  margin-bottom: 40px;
+}
 .poem {
   color: #fff;
-  font-family: Calibri;
+  font-family: "Calibri";
   font-size: 18px;
   text-align: center;
+}
+.nav {
+  margin-top: 72px;
+  text-align: center;
+  color: #fff;  
+}
+.sod_title {
+  text-align: center;
+  color: #fff;
+  font-family: "Calibri";
+  font-size: 32px;
+  margin-top: 20px;
 }
