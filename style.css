@@ -16,6 +16,7 @@ body {
   flex-direction: column;
   text-align: center;
   margin-top: 160px;
+  margin-bottom: 160px;
 }
 .author {
   color: #fff;
@@ -31,6 +32,7 @@ body {
   border-radius: 10px;
   border: 1px solid #474747;
   background-color: #2e2e2e;
+  min-width: 250px;
 }
 .main_block a:hover {
   transition: .15s;
