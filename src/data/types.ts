@@ -6,7 +6,7 @@ export interface Poem {
   format: PoemFormat
   stanzas: string[][]
   prose?: string
-  lang?: 'ru' | 'be'
+  lang?: 'ru' | 'be' | 'en'
 }
 
 export interface Collection {

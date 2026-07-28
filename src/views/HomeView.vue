@@ -38,6 +38,7 @@ import { author, bookTitle, collections, standalonePoems } from '@/data/catalog'
           <RouterLink class="poem-link" :to="{ name: 'poem', params: { slug: poem.slug } }">
             <span class="poem-link__title">{{ poem.title }}</span>
             <span v-if="poem.lang === 'be'" class="poem-link__lang">бел</span>
+            <span v-else-if="poem.lang === 'en'" class="poem-link__lang">en</span>
           </RouterLink>
         </li>
       </ul>
