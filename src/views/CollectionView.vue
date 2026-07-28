@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import { RouterLink, useRouter } from 'vue-router'
 import { getCollection } from '@/data/catalog'
+import { formatPoemDate } from '@/data/types'
 
 const props = defineProps<{ id: string }>()
 const router = useRouter()
@@ -38,7 +39,10 @@ if (!collection.value) {
             <span class="index">{{ String(index + 1).padStart(2, '0') }}</span>
             {{ poem.title }}
           </span>
-          <span v-if="poem.format === 'prose'" class="poem-link__lang">послесловие</span>
+          <span class="poem-link__meta">
+            <span v-if="poem.format === 'prose'" class="poem-link__lang">послесловие</span>
+            <span class="poem-link__date">{{ formatPoemDate(poem.createdAt) }}</span>
+          </span>
         </RouterLink>
       </li>
     </ol>

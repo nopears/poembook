@@ -4,6 +4,7 @@ export const standalonePoems: Poem[] = [
   {
     slug: 'temnota',
     title: 'В темноте',
+    createdAt: '2022-09-29',
     format: 'verse',
     stanzas: [
       [
@@ -29,6 +30,7 @@ export const standalonePoems: Poem[] = [
   {
     slug: 'boketto',
     title: 'Бокетто',
+    createdAt: '2022-04-11',
     format: 'verse',
     stanzas: [
       [
@@ -55,6 +57,7 @@ export const standalonePoems: Poem[] = [
   {
     slug: 'mrak',
     title: 'Во мраке тихой темной ночи',
+    createdAt: '2022-08-29',
     format: 'verse',
     stanzas: [
       [
@@ -80,6 +83,7 @@ export const standalonePoems: Poem[] = [
   {
     slug: 'night',
     title: 'Ночь',
+    createdAt: '2022-08-14',
     format: 'verse',
     stanzas: [
       [
@@ -98,6 +102,7 @@ export const standalonePoems: Poem[] = [
   {
     slug: 'moon',
     title: 'Луна',
+    createdAt: '2022-04-27',
     format: 'verse',
     stanzas: [
       [
@@ -123,6 +128,7 @@ export const standalonePoems: Poem[] = [
   {
     slug: 'stay',
     title: 'Постой',
+    createdAt: '2022-04-28',
     format: 'verse',
     stanzas: [
       [
@@ -142,6 +148,7 @@ export const standalonePoems: Poem[] = [
   {
     slug: 'moment',
     title: '…',
+    createdAt: '2022-09-12',
     format: 'verse',
     stanzas: [
       [
@@ -169,33 +176,9 @@ export const standalonePoems: Poem[] = [
     ],
   },
   {
-    slug: 'obman',
-    title: 'Обман',
-    format: 'verse',
-    stanzas: [
-      [
-        'Ты веришь только в ложь,',
-        'Глаза не видят правды,',
-        'Твой мозг уже плывет,',
-        'Сознание тихо умирает.',
-      ],
-      [
-        'Но ты и дальше смотришь ящик,',
-        'Все так же веря в бычий глаз.',
-        'Теперь ты словно зомби,',
-        'Что над собой утерял власть.',
-      ],
-      [
-        'И каждый аргумент',
-        'Проходит вскользь твоих ушей,',
-        'Ведь сознанием управляет',
-        'Полумертвый кощей.',
-      ],
-    ],
-  },
-  {
     slug: 'pristan',
     title: 'На старой пристани',
+    createdAt: '2022-04-20',
     format: 'verse',
     stanzas: [
       [
@@ -227,6 +210,7 @@ export const standalonePoems: Poem[] = [
   {
     slug: 'ty',
     title: 'Ты',
+    createdAt: '2022-04-19',
     format: 'verse',
     stanzas: [
       [
@@ -246,6 +230,7 @@ export const standalonePoems: Poem[] = [
   {
     slug: 'soldat',
     title: 'Маленький солдат',
+    createdAt: '2022-02-23',
     format: 'verse',
     stanzas: [
       [
@@ -319,6 +304,7 @@ export const standalonePoems: Poem[] = [
   {
     slug: 'marsh',
     title: 'Партызанскі марш',
+    createdAt: '2022-08-04',
     format: 'verse',
     lang: 'be',
     stanzas: [
@@ -348,6 +334,7 @@ export const standalonePoems: Poem[] = [
   {
     slug: 'pyt',
     title: 'Ты адкажы мне на пытаньне',
+    createdAt: '2022-02-25',
     format: 'verse',
     lang: 'be',
     stanzas: [
@@ -375,6 +362,7 @@ export const standalonePoems: Poem[] = [
   {
     slug: 'prison',
     title: 'Prison',
+    createdAt: '2024-02-21',
     format: 'verse',
     lang: 'en',
     stanzas: [
@@ -395,6 +383,7 @@ export const standalonePoems: Poem[] = [
   {
     slug: 'doroga',
     title: 'Дорога',
+    createdAt: '2025-10-08',
     format: 'verse',
     stanzas: [
       [
@@ -420,6 +409,7 @@ export const standalonePoems: Poem[] = [
   {
     slug: 'nol',
     title: '0°С',
+    createdAt: '2025-06-10',
     format: 'verse',
     stanzas: [
       [
@@ -445,6 +435,7 @@ export const standalonePoems: Poem[] = [
   {
     slug: 'slovo',
     title: 'Слово',
+    createdAt: '2023-01-21',
     format: 'verse',
     stanzas: [
       [

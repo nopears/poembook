@@ -1,6 +1,12 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router'
 import { author, bookTitle, collections, standalonePoems } from '@/data/catalog'
+import { formatPoemDate } from '@/data/types'
+import { computed } from 'vue'
+
+const poems = computed(() =>
+  [...standalonePoems].sort((a, b) => b.createdAt.localeCompare(a.createdAt)),
+)
 </script>
 
 <template>
@@ -34,11 +40,14 @@ import { author, bookTitle, collections, standalonePoems } from '@/data/catalog'
     <section class="section" aria-labelledby="poems-label">
       <h2 id="poems-label" class="section-label">Стихотворения</h2>
       <ul class="poem-list">
-        <li v-for="poem in standalonePoems" :key="poem.slug">
+        <li v-for="poem in poems" :key="poem.slug">
           <RouterLink class="poem-link" :to="{ name: 'poem', params: { slug: poem.slug } }">
             <span class="poem-link__title">{{ poem.title }}</span>
-            <span v-if="poem.lang === 'be'" class="poem-link__lang">бел</span>
-            <span v-else-if="poem.lang === 'en'" class="poem-link__lang">en</span>
+            <span class="poem-link__meta">
+              <span v-if="poem.lang === 'be'" class="poem-link__lang">бел</span>
+              <span v-else-if="poem.lang === 'en'" class="poem-link__lang">en</span>
+              <span class="poem-link__date">{{ formatPoemDate(poem.createdAt) }}</span>
+            </span>
           </RouterLink>
         </li>
       </ul>

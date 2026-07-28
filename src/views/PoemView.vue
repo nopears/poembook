@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import { RouterLink, useRouter } from 'vue-router'
 import { getCollection, getPoemInCollection, getStandalonePoem } from '@/data/catalog'
+import { formatPoemDate } from '@/data/types'
 
 const props = defineProps<{
   slug: string
@@ -54,6 +55,7 @@ if (!context.value) {
 
     <article class="poem-shell">
       <h1 class="poem-title">{{ context.poem.title }}</h1>
+      <p class="poem-date">{{ formatPoemDate(context.poem.createdAt) }}</p>
 
       <div v-if="context.poem.format === 'prose'" class="prose">
         {{ context.poem.prose }}

@@ -218,6 +218,29 @@ ul {
   color: var(--mist-dim);
 }
 
+.poem-link__meta {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.65rem;
+  flex-shrink: 0;
+}
+
+.poem-link__date {
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  color: var(--mist-dim);
+  white-space: nowrap;
+}
+
+.poem-date {
+  margin: 0 0 2.25rem;
+  text-align: center;
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--mist-dim);
+}
+
 .topbar {
   display: flex;
   align-items: center;
@@ -282,7 +305,7 @@ ul {
 }
 
 .poem-title {
-  margin-bottom: 2.25rem;
+  margin-bottom: 0.75rem;
   font-family: var(--font-poem);
   font-size: clamp(2rem, 6vw, 3rem);
   font-style: italic;

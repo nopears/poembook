@@ -4,6 +4,7 @@ export const zerkaloPoems: Poem[] = [
   {
     slug: 'passazhir',
     title: 'Пассажир',
+    createdAt: '2022-01-17',
     format: 'verse',
     stanzas: [
       [
@@ -17,6 +18,7 @@ export const zerkaloPoems: Poem[] = [
   {
     slug: 'mil',
     title: 'Насильно мил, увы, не будешь',
+    createdAt: '2022-01-12',
     format: 'verse',
     stanzas: [
       [
@@ -43,6 +45,7 @@ export const zerkaloPoems: Poem[] = [
   {
     slug: 'temnica',
     title: 'Темница',
+    createdAt: '2022-01-03',
     format: 'verse',
     stanzas: [
       [
@@ -63,6 +66,7 @@ export const zerkaloPoems: Poem[] = [
   {
     slug: 'plyvia',
     title: '…',
+    createdAt: '2022-01-03',
     format: 'verse',
     stanzas: [
       [
@@ -93,6 +97,7 @@ export const zerkaloPoems: Poem[] = [
   {
     slug: 'gorod',
     title: 'Город-фальшь',
+    createdAt: '2022-02-05',
     format: 'verse',
     stanzas: [
       [
@@ -124,6 +129,7 @@ export const zerkaloPoems: Poem[] = [
   {
     slug: 'otshelnik',
     title: 'Отшельник',
+    createdAt: '2021-12-27',
     format: 'verse',
     stanzas: [
       [
@@ -156,6 +162,7 @@ export const zerkaloPoems: Poem[] = [
   {
     slug: 'soul',
     title: 'Душа',
+    createdAt: '2022-01-24',
     format: 'verse',
     stanzas: [
       [
@@ -175,6 +182,7 @@ export const zerkaloPoems: Poem[] = [
   {
     slug: 'rassvet',
     title: 'Рассвет',
+    createdAt: '2022-02-23',
     format: 'verse',
     stanzas: [
       [
@@ -200,6 +208,7 @@ export const zerkaloPoems: Poem[] = [
   {
     slug: 'polet',
     title: 'В полёте',
+    createdAt: '2022-01-03',
     format: 'verse',
     stanzas: [
       [
@@ -225,6 +234,7 @@ export const zerkaloPoems: Poem[] = [
   {
     slug: 'pustota',
     title: 'Пустота',
+    createdAt: '2022-02-06',
     format: 'verse',
     stanzas: [
       [
@@ -254,6 +264,7 @@ export const zerkaloPoems: Poem[] = [
   {
     slug: 'monolog',
     title: 'Последний монолог',
+    createdAt: '2022-08-20',
     format: 'prose',
     stanzas: [],
     prose:
